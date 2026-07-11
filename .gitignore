@@ -1,0 +1,15 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Variable files
+*.tfvars
+!terraform.tfvars.example
+
+# VS Code
+.vscode/
