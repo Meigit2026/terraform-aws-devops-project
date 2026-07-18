@@ -1,0 +1,34 @@
+variable "vpc_id" {
+  description = "VPC ID where subnets will be created"
+  type        = string
+}
+
+variable "public_subnet_1_cidr" {
+  description = "CIDR block for Public Subnet 1"
+  type        = string
+}
+
+variable "public_subnet_2_cidr" {
+  description = "CIDR block for Public Subnet 2"
+  type        = string
+}
+
+variable "private_subnet_1_cidr" {
+  description = "CIDR block for Private Subnet 1"
+  type        = string
+}
+
+variable "private_subnet_2_cidr" {
+  description = "CIDR block for Private Subnet 2"
+  type        = string
+}
+
+variable "availability_zone_1" {
+  description = "First Availability Zone"
+  type        = string
+}
+
+variable "availability_zone_2" {
+  description = "Second Availability Zone"
+  type        = string
+}
