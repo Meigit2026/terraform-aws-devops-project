@@ -1,15 +1,27 @@
+# ===========================
 # Terraform
-**/.terraform/
-*.tfstate
-*.tfstate.*
-*.tfplan
+# ===========================
 
-# Terraform lock file
-.terraform.lock.hcl
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+
+# Keep provider lock file in Git
+# Do NOT ignore .terraform.lock.hcl
 
 # Variable files
-*.tfvars
-!terraform.tfvars.example
+terraform/*.tfvars
+!terraform/terraform.tfvars.example
 
+# ===========================
 # VS Code
+# ===========================
+
 .vscode/
+
+# ===========================
+# Windows
+# ===========================
+
+Thumbs.db
