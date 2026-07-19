@@ -20,3 +20,6 @@ output "private_subnet_2_id" {
 output "internet_gateway_id" {
   value = module.internet_gateway.internet_gateway_id
 }
+output "public_route_table_id" {
+  value = module.route_table.public_route_table_id
+}
